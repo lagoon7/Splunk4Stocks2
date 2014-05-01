@@ -10,6 +10,8 @@ stockline = list()
 parser = argparse.ArgumentParser()
 parser.add_argument("-if","--inputfile",help="Input File")
 parser.add_argument("-sd","--startdate", type=int,nargs=3,help="Start Date: Year[YYYY] Month[MM] Day [DD]")
+parser.add_argument("-of","--outputfile",help="Output File")
+parser.add_argument("-ed","--enddate", type=int,nargs=3,help="End Date: Year[YYYY] Month[MM] Day [DD]")
 
 args = parser.parse_args()
 
